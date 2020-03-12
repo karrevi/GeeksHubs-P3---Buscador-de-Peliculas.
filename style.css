@@ -1,0 +1,53 @@
+body{
+    padding-top: 75px;
+    background-color: #34495e;}
+
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+}
+
+.busquedaContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 0.5em;
+}
+.fa-search{
+    font-size: 30px;
+}
+input#search-bar{
+    all:unset;
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    outline: none;
+    
+}
+.search-icon {
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+}
+::placeholder{
+    transition: opacity 0.45s ease;
+    color: black;
+}
+
+.peliculas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.peliculas-descripcion {
+    padding: 60px;
+    text-align: center;
+}
