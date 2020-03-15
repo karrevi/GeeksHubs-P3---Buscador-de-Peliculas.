@@ -27,7 +27,7 @@ const getMovie = id =>{
             peliculasContainer.innerHTML += `
             <div class="peliculas-descripcion"><h2>${pelicula.title}</h2>
             ${imagen}
-            <button onclick="getMovie(${pelicula.id})" class="VerDemo">Descripción</button>
+            <button onclick="getMovie(${pelicula.id})" class="VerDemo">Ver Demo</button>
             </div>
             `
             });
@@ -47,7 +47,7 @@ const searchPeliculas = (busqueda) => {
             <div class="peliculas-descripcion"><h2>${pelicula.title}</h2>
             ${imagen}
             
-            <button onclick="getMovie(${pelicula.id})" class="VerDemo">Descripción</button>
+            <button onclick="getMovie(${pelicula.id})" class="VerDemo">Ver Demo</button>
             </div>
             
             `
